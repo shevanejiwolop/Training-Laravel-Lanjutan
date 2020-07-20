@@ -4,6 +4,9 @@ class Elang extends Hewan
 {
     public function getInfoHewan()
     {
-        echo $darah;
+        echo 'Nama = '.$this->nama.'<br>';
+        echo 'Darah = '.$this->darah.'<br>';
+        echo 'Jumlah Kaki = '.$this->kaki.'<br>';
+        echo 'keahlian = '.$this->keahlian.'<br>';
     }
 }
