@@ -23,16 +23,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('user')->with('success', 'Anda Memiliki Akses');
     }
 
     public function admin()
     {
-        return view('admin');
+        return view('admin')->with('success', 'Anda Memiliki Akses');
     }
 
     public function superAdmin()
     {
-        return view('superadmin');
+        return view('superadmin')->with('success', 'Anda Memiliki Akses');
     }
 }
